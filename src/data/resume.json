@@ -1,0 +1,211 @@
+[
+  {
+    "year": 2027,
+    "experience": [],
+    "education": [],
+    "projects": [],
+    "volunteership": []
+  },
+  {
+    "year": 2026,
+    "experience": [],
+    "education": [],
+    "projects": [],
+    "volunteership": []
+  },
+  {
+    "year": 2025,
+    "experience": [
+      {
+        "id": "experience-dev-lead",
+        "startDate": "2024",
+        "endDate": "2025",
+        "title": "Full Stack Software Dev Lead",
+        "company": "Bounteous, India",
+        "highlights": [
+          "Reduced RFQ response latency by 99.9%, from 6 weeks to 5 minutes per request, by architecting a cloud-native Agentic AI solution utilizing a React-based chat frontend and an Azure-based backend.",
+          "Fully automated the extraction and structured storage of vendor data by building the Control Tower AI agent using OpenAI LLMs, Azure Blob Storage, and Azure Functions, while leading all code review efforts.",
+          "Enhanced project cost estimation accuracy and transparency by developing the Rapid Cost RAG based LLM to provide automated cost predictions with data-backed reasoning for construction bids, with APIs to enable the frontend chat functionality.",
+          "Led sprint demos and stakeholder communication across the SDLC to ensure on time project delivery.",
+          "Resolved 4 of 9 tracked issues on a marketing campaign tracking tool, implementing frontend and backend fixes (React, Node.js) to improve campaign status visibility and reduce manual effort by 2 minutes per campaign tracked."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "education-nyu",
+        "type": "degree",
+        "startDate": "2025",
+        "endDate": "2027",
+        "title": "Master of Science in Computer Science",
+        "institution": "New York University (Tandon School of Engineering)",
+        "details": "Graduate program focused on advanced software engineering and AI technologies"
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-erica",
+        "startDate": "2025",
+        "endDate": "2025",
+        "title": "Erica - A Text-based AI Tutor",
+        "description": "Uses a GraphRAG pipeline with knowledge graphs and LLMs for query retrieval and explanation generation, implementing end-to-end ingestion, graph construction, and subgraph-based query answering over multimodal course content.",
+        "technologies": ["GraphRAG", "LLMs", "Knowledge Graphs", "Python"]
+      }
+    ],
+    "volunteership": []
+  },
+  {
+    "year": 2024,
+    "experience": [
+      {
+        "id": "experience-software-engineer",
+        "startDate": "2023",
+        "endDate": "2024",
+        "title": "Full Stack Software Engineer",
+        "company": "Bounteous, India",
+        "highlights": [
+          "Upgraded 78 JavaScript pipeline scripts across 4 Fusion AI search pipelines from legacy JS to ES6, restoring failed pipelines and ensuring uninterrupted real-time product search and recommendations on a glass manufacturer's website with 10000+ SKUs.",
+          "Improved server-side logic using SQL server, reducing the number of database calls by over 45%.",
+          "Designed and developed 3 of 7 APIs to connect to legacy microservices, enabling modern systems to integrate without direct dependency on legacy interfaces, including end-to-end ownership of 1 API with full API specification documentation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "certification-google",
+        "type": "certification",
+        "startDate": "2024",
+        "endDate": "2024",
+        "title": "2x Google Cloud Certified",
+        "institution": "Google Cloud",
+        "details": "Google Cloud Digital Leader & Google Cloud Gen AI Leader",
+        "certId": "56049e3e136743c182eaedf7c9276f8d"
+      },
+      {
+        "id": "certification-oracle",
+        "type": "certification",
+        "startDate": "2024",
+        "endDate": "2024",
+        "title": "Oracle Cloud Infrastructure Certified",
+        "institution": "Oracle",
+        "details": "Oracle Foundations Associate",
+        "certId": ""
+      },
+      {
+        "id": "certification-docker",
+        "type": "certification",
+        "startDate": "2024",
+        "endDate": "2024",
+        "title": "Docker Foundations Professional Certificate",
+        "institution": "Docker",
+        "details": "Container platform certification",
+        "certId": "bc4e7b5e93348037454067ee0ebd46e1f5f22c313b0919ddb0e69affc157ade3"
+      },
+      {
+        "id": "certification-chainguard",
+        "logoId": "chainguard",
+        "type": "certification",
+        "startDate": "2024",
+        "endDate": "2024",
+        "title": "Securing the AI/ML Supply Chain",
+        "institution": "Chainguard",
+        "details": "Container security and AI/ML security",
+        "certId": "rnyk7yf8rs49"
+      }
+    ],
+    "projects": [],
+    "volunteership": [
+      {
+        "id": "volunteership-cricket",
+        "startDate": "2014",
+        "endDate": "2024",
+        "title": "Professional Cricketer",
+        "description": "Competed at professional level in cricket"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "experience": [
+      {
+        "id": "experience-intern",
+        "startDate": "2023",
+        "endDate": "2023",
+        "title": "Software Engineering Intern",
+        "company": "Bounteous, India",
+        "highlights": [
+          "Developed a customer support portal for an S&P 500 global life sciences company.",
+          "Built and tested scalable microservices following enterprise level application architecture."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "education-srm",
+        "type": "degree",
+        "startDate": "2019",
+        "endDate": "2023",
+        "title": "Bachelor of Technology in Computer Science and Engineering",
+        "institution": "SRM Institute of Science and Technology",
+        "details": "Undergraduate degree with focus on software development and system design"
+      }
+    ],
+    "projects": [],
+    "volunteership": []
+  },
+  {
+    "year": 2022,
+    "experience": [],
+    "education": [],
+    "projects": [
+      {
+        "id": "project-fintech",
+        "startDate": "2022",
+        "endDate": "2022",
+        "title": "AI enabled B2B Full-Stack Fintech Application",
+        "description": "A full-stack invoice management application with an integrated ML model to predict payment dates and vendor defaults with delays duration.",
+        "technologies": ["React", "Node.js", "ML", "Finance APIs"]
+      }
+    ],
+    "volunteership": [
+      {
+        "id": "volunteership-hope",
+        "startDate": "2019",
+        "endDate": "2020",
+        "title": "HOPE Orphanage Sports Event Volunteer",
+        "description": "Organized and volunteered for sports events at HOPE Orphanage"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "experience": [],
+    "education": [],
+    "projects": [
+      {
+        "id": "project-trading",
+        "startDate": "2021",
+        "endDate": "2021",
+        "title": "Systematic Trading",
+        "description": "Built a systematic trading system that uses data driven models, technical indicators and predefined rules to generate and execute trades automatically in real time.",
+        "technologies": ["Python", "Data Analysis", "Trading APIs"]
+      }
+    ],
+    "volunteership": []
+  },
+  {
+    "year": 2018,
+    "experience": [],
+    "education": [],
+    "projects": [],
+    "volunteership": [
+      {
+        "id": "volunteership-actor",
+        "startDate": "2016",
+        "endDate": "2018",
+        "title": "Actor",
+        "description": "Performed in various theatrical productions"
+      }
+    ]
+  }
+]
