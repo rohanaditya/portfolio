@@ -12,33 +12,41 @@ body {
   overflow: hidden;
 }
 
-/* Horizontal Scroll Container - Hide scrollbars across all browsers */
+/* Horizontal scroll container — hide scrollbars across all browsers */
 .horizontal-scroll-container {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
 }
-
-/* Hide scrollbar for Chrome, Safari, Edge, and Opera */
 .horizontal-scroll-container::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for Firefox */
-.horizontal-scroll-container {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+/* Cursor: ew-resize on scroll area, pointer on tiles */
+.horizontal-scroll-container,
+.horizontal-scroll-container * {
+  cursor: ew-resize;
+}
+.horizontal-scroll-container [data-timeline-card],
+.horizontal-scroll-container [data-timeline-card] * {
+  cursor: pointer;
 }
 
-/* Ensure smooth horizontal scrolling with trackpad and shift+scroll */
-.horizontal-scroll-container {
-  scroll-snap-type: x proximity;
+.photo-placeholder {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.photo-placeholder{
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    object-fit: cover; /* keeps image nicely cropped */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+/* Tablet: scale photo down slightly */
+@media (max-width: 1024px) {
+  .photo-placeholder {
+    width: 12vw;
+    height: 12vw;
+  }
 }

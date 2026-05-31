@@ -8,9 +8,88 @@
   },
   {
     "year": 2026,
-    "experience": [],
-    "education": [],
-    "projects": [],
+    "experience": [
+      {
+        "id": "experience-nyu-ogs",
+        "logoId": "NYU",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Graduate Student Employee",
+        "company": "New York University Office of Global Services",
+        "highlights": [
+          "Graduate Student Employee at NYU Office of Global Services in the operations team."
+        ]
+      },
+      {
+        "id": "experience-nyu-ta",
+        "logoId": "NYU",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Teaching Assistant - Intro to Blockchain & Distributed Ledger Technology (Upcoming)",
+        "company": "New York University",
+        "highlights": [
+          "Upcoming Teaching Assistant for the Introduction to Blockchain and Distributed Ledger Technology course at New York University."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "certification-chainguard",
+        "logoId": "chainguard",
+        "type": "certification",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Securing the AI/ML Supply Chain",
+        "institution": "Chainguard",
+        "details": "Container security and AI/ML security",
+        "credly": "https://www.credly.com/badges/4007f2a3-d539-41d8-b0e6-a4268c1161c7"
+      },
+      {
+        "id": "certification-chainguard-2",
+        "logoId": "chainguard",
+        "type": "certification",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Chainguard Container Crusader",
+        "institution": "Chainguard",
+        "details": "Chainguard Container Crusader",
+        "credly": "https://www.credly.com/badges/e8e333a7-d750-4569-bc99-0c2a41ec403d"
+      },
+      {
+        "id": "certification-docker",
+        "logoId": "docker",
+        "type": "certification",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Docker Foundations Professional Certificate",
+        "institution": "Docker",
+        "details": "Container platform certification",
+        "certId": "bc4e7b5e93348037454067ee0ebd46e1f5f22c313b0919ddb0e69affc157ade3"
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-blockchain",
+        "imageId": "housifi",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "HousiFi - Realestate Tokenization",
+        "description": "Fractional real estate investment on Sepolia. Users pool a down payment by buying a majority (85%) or minority (15%) share of a property. Ownership and payouts are settled on-chain via ERC-20 property tokens and USDC.",
+        "technologies": ["Next.js", "TypeScript", "React", "ether.js", "Solidity", "Hardhat"],
+        "repoLink": "https://github.com/rohanaditya/HousiFi"
+      },
+      {
+        "id": "project-domino",
+        "imageId": "domino",
+        "startDate": "2026",
+        "endDate": "2026",
+        "title": "Domino - A Supply Chain Vulnerability Dashboard",
+        "description": "DOMINO is a supply chain vulnerability dashboard that models how disruptions to global commodity trade propagate through production chains and affect countries worldwide. Given eleven years of bilateral trade data from the BACI database (2014– 2024, approximately 100 million rows), we compute trade vulnerability metrics, construct commodity-level trade networks, run a four-step cascade simulation across 23,760 shock scenarios, and serve the precomputed results to an interactive dashboard. The data pipeline runs on Apache Spark on Google Cloud Dataproc with HDFS storage and Spark GraphFrames for graph computation. The backend is an async FastAPI service backed by MongoDB Atlas, and the frontend is a React/D3.js application centered on a rotatable 3D globe. The final simulation output is 1.3 million rows covering every combination of 30 countries, 72 commodity groups, and 11 years.",
+        "technologies": ["Next.js", "MongoDB", "PySpark", "Knowledge Graphs", "D3.js", "PageRank"],
+        "liveLink": "https://domino-big-data-project.netlify.app",
+        "repoLink": "https://github.com/VighneshHemnani/domino-trade-big-data-project/tree/main"
+      }
+    ],
     "volunteership": []
   },
   {
@@ -18,6 +97,7 @@
     "experience": [
       {
         "id": "experience-dev-lead",
+        "logoId": "bounteous",
         "startDate": "2024",
         "endDate": "2025",
         "title": "Full Stack Software Dev Lead",
@@ -34,22 +114,56 @@
     "education": [
       {
         "id": "education-nyu",
+        "logoId": "NYU",
         "type": "degree",
         "startDate": "2025",
         "endDate": "2027",
         "title": "Master of Science in Computer Science",
         "institution": "New York University (Tandon School of Engineering)",
-        "details": "Graduate program focused on advanced software engineering and AI technologies"
+        "details": "Graduate program focused on advanced software engineering and AI technologies",
+        "cgpa": "3.61 / 4",
+        "coursework": [
+          "Design and Analysis of Algorithms I",
+          "Artificial Intelligence I",
+          "Foundations of Fintech",
+          "Big Data",
+          "Cloud Computing",
+          "Intro to Blockchain & Distributed Ledger Tech"
+        ]
+      },
+      {
+        "id": "certification-google",
+        "logoId": "gcp",
+        "type": "certification",
+        "startDate": "2025",
+        "endDate": "2025",
+        "title": "Google Cloud Certified Digital Leader",
+        "institution": "Google Cloud",
+        "details": "Google Cloud Digital Leader",
+        "credly": "https://www.credly.com/badges/ee9fc2b6-c4cd-4bda-94fa-4b63455c1ee1"
+      },
+      {
+        "id": "certification-google-2",
+        "logoId": "gcp",
+        "type": "certification",
+        "startDate": "2025",
+        "endDate": "2025",
+        "title": "Google Cloud Certified Gen AI Leader",
+        "institution": "Google Cloud",
+        "details": "Google Cloud Gen AI Leader",
+        "credly": "https://www.credly.com/badges/9dd115f8-6b3f-445c-a452-1260aaa50d9e"
       }
     ],
     "projects": [
       {
         "id": "project-erica",
+        "imageId": "erica",
         "startDate": "2025",
         "endDate": "2025",
         "title": "Erica - A Text-based AI Tutor",
         "description": "Uses a GraphRAG pipeline with knowledge graphs and LLMs for query retrieval and explanation generation, implementing end-to-end ingestion, graph construction, and subgraph-based query answering over multimodal course content.",
-        "technologies": ["GraphRAG", "LLMs", "Knowledge Graphs", "Python"]
+        "technologies": ["GraphRAG", "LLMs", "Knowledge Graphs", "Python"],
+        "repoLink": "https://github.com/rr5055-bit/eng-ai-agents/tree/main/project"
       }
     ],
     "volunteership": []
@@ -59,6 +173,7 @@
     "experience": [
       {
         "id": "experience-software-engineer",
+        "logoId": "bounteous",
         "startDate": "2023",
         "endDate": "2024",
         "title": "Full Stack Software Engineer",
@@ -72,52 +187,23 @@
     ],
     "education": [
       {
-        "id": "certification-google",
-        "type": "certification",
-        "startDate": "2024",
-        "endDate": "2024",
-        "title": "2x Google Cloud Certified",
-        "institution": "Google Cloud",
-        "details": "Google Cloud Digital Leader & Google Cloud Gen AI Leader",
-        "certId": "56049e3e136743c182eaedf7c9276f8d"
-      },
-      {
         "id": "certification-oracle",
+        "logoId": "oracle",
         "type": "certification",
-        "startDate": "2024",
-        "endDate": "2024",
+        "startDate": "2021",
+        "endDate": "2021",
         "title": "Oracle Cloud Infrastructure Certified",
         "institution": "Oracle",
         "details": "Oracle Foundations Associate",
         "certId": ""
-      },
-      {
-        "id": "certification-docker",
-        "type": "certification",
-        "startDate": "2024",
-        "endDate": "2024",
-        "title": "Docker Foundations Professional Certificate",
-        "institution": "Docker",
-        "details": "Container platform certification",
-        "certId": "bc4e7b5e93348037454067ee0ebd46e1f5f22c313b0919ddb0e69affc157ade3"
-      },
-      {
-        "id": "certification-chainguard",
-        "logoId": "chainguard",
-        "type": "certification",
-        "startDate": "2024",
-        "endDate": "2024",
-        "title": "Securing the AI/ML Supply Chain",
-        "institution": "Chainguard",
-        "details": "Container security and AI/ML security",
-        "certId": "rnyk7yf8rs49"
       }
     ],
     "projects": [],
     "volunteership": [
       {
         "id": "volunteership-cricket",
-        "startDate": "2014",
+        "logoId": "cricket",
+        "startDate": "2019",
         "endDate": "2024",
         "title": "Professional Cricketer",
         "description": "Competed at professional level in cricket"
@@ -129,6 +215,7 @@
     "experience": [
       {
         "id": "experience-intern",
+        "logoId": "bounteous",
         "startDate": "2023",
         "endDate": "2023",
         "title": "Software Engineering Intern",
@@ -142,15 +229,51 @@
     "education": [
       {
         "id": "education-srm",
+        "logoId": "SRM",
         "type": "degree",
         "startDate": "2019",
         "endDate": "2023",
         "title": "Bachelor of Technology in Computer Science and Engineering",
         "institution": "SRM Institute of Science and Technology",
-        "details": "Undergraduate degree with focus on software development and system design"
+        "details": "Undergraduate degree in Computer Science and Engineering from SRM Institute of Science and Technology, with focus on software development, system design, and applied computing",
+        "cgpa": "9.27 / 10",
+        "coursework": [
+          "Artificial Intelligence",
+          "Natural Language Processing",
+          "Full Stack Development with MERN",
+          "Data Structures and Algorithms",
+          "Design and Analysis of Algorithms",
+          "Object Oriented Design and Programming",
+          "Database Management Systems",
+          "Data Mining and Analytics",
+          "Data X - Applied Data Science with Venture Application",
+          "Operating Systems",
+          "Computer Networks",
+          "Software Engineering and Project Management",
+          "Probability and Queueing Theory",
+          "Calculus and Linear Algebra",
+          "Advanced Calculus and Complex Analysis",
+          "Discrete Mathematics for Engineers",
+          "Information Visualization",
+          "Advanced Programming Practice",
+          "Compiler Design",
+          "Computer Organization and Architecture",
+          "Management Principles for Engineers",
+          "Programming for Problem Solving"
+        ]
       }
     ],
-    "projects": [],
+    "projects": [
+      {
+        "id": "project-anpr",
+        "imageId": "anpr",
+        "startDate": "2023",
+        "endDate": "2023",
+        "title": "Automatic Number Plate Recognition",
+        "description": "A deep learning system that uses MobileNet CNN, TensorFlow and an object detection model to read number plates and achieved an accuracy of 92% on images with poor lighting, glare and obstructions",
+        "technologies": ["Python", "OCR", "CV", "TensorFlow", "CNN"]
+      }
+    ],
     "volunteership": []
   },
   {
@@ -160,18 +283,29 @@
     "projects": [
       {
         "id": "project-fintech",
+        "imageId": "b2b-saas",
         "startDate": "2022",
         "endDate": "2022",
         "title": "AI enabled B2B Full-Stack Fintech Application",
         "description": "A full-stack invoice management application with an integrated ML model to predict payment dates and vendor defaults with delays duration.",
         "technologies": ["React", "Node.js", "ML", "Finance APIs"]
+      },
+      {
+        "id": "project-research",
+        "imageId": "chennai",
+        "startDate": "2022",
+        "endDate": "2022",
+        "title": "Research: Data Driven study on Chennai's Water Crisis",
+        "description": "Performed elaborate EDA of the reservoir levels, rainfall levels, urbanisation growth, soil quality and built an LSTM model to predict levels in the future. Paper was submitted to Indo Joint Research Call for Proposals 2021 by Department of Science and Technology (DST), Government of India.",
+        "technologies": ["Python", "Pandas", "ML Models", "EDA", "Data Visulization", "Environmental Hydrology"]
       }
     ],
     "volunteership": [
       {
         "id": "volunteership-hope",
+        "logoId": "volunteer",
         "startDate": "2019",
-        "endDate": "2020",
+        "endDate": "2019",
         "title": "HOPE Orphanage Sports Event Volunteer",
         "description": "Organized and volunteered for sports events at HOPE Orphanage"
       }
@@ -179,11 +313,24 @@
   },
   {
     "year": 2021,
-    "experience": [],
+    "experience": [
+      {
+        "id": "experience-4thventure",
+        "logoId": "4thventure",
+        "startDate": "2021",
+        "endDate": "2021",
+        "title": "Data Analytics Intern",
+        "company": "4thVenture IoTSpace Pvt. Ltd.",
+        "highlights": [
+          "Analysed patterns in time series data and worked on Machine Learning models for smart IoT systems."
+        ]
+      }
+    ],
     "education": [],
     "projects": [
       {
         "id": "project-trading",
+        "imageId": "systematic-trading",
         "startDate": "2021",
         "endDate": "2021",
         "title": "Systematic Trading",
@@ -201,7 +348,8 @@
     "volunteership": [
       {
         "id": "volunteership-actor",
-        "startDate": "2016",
+        "logoId": "actor",
+        "startDate": "2018",
         "endDate": "2018",
         "title": "Actor",
         "description": "Performed in various theatrical productions"
